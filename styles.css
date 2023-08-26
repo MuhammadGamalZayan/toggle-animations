@@ -359,3 +359,32 @@ nav .menu li a:hover {
     background-position: center bottom;
     transition: ease-in-out 4s;
 }
+
+@media(max-width:767px) {
+    .row {
+        flex-direction: column;
+    }
+    .right, .left {
+        width:100%;
+    }
+    .left {
+        margin-bottom: 20px;
+    }
+    .card-container {
+        flex-direction: column;
+    }
+    .card-container .card{
+        width:80%;
+        margin:10px 0;
+    }
+    .last-section {
+        flex-direction: column;
+        padding-bottom: 0;
+    }
+    .last-section div {
+        width:90%;
+    }
+    .toggle {
+        z-index: 9999;
+    }
+}
