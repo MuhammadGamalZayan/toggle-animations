@@ -362,7 +362,7 @@ nav .menu li a:hover {
 
 @media(max-width:767px) {
     .row {
-        flex-direction: column;
+        flex-direction: column !important;
     }
     .right, .left {
         width:100%;
