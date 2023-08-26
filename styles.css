@@ -387,4 +387,13 @@ nav .menu li a:hover {
     .toggle {
         z-index: 9999;
     }
+    .menu {
+        display: none !important;
+    }
+    .nav-active {
+        display: flex !important;
+    }
+    .menu.nav-active {
+        display: flex !important;
+    }
 }
